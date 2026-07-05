@@ -32,12 +32,13 @@ When displaying the message, the content will not be expanded in the following c
 
 ## Usage
 
-- Sending Discord Message URL, then it'll be quoted.
+- Sending Discord Message URL in server which is already installed this bot, then it'll be quoted.
 
 ## Requirements, Dependencies
 
-1. Node.js V18 or newer  
-2. Discord Bot Token  
+1. Discord Server
+2. Node.js V18 or newer  
+3. Discord Bot Token  
 You can obtain token from Discord Developer Portal.
 
 ## Installation
@@ -87,12 +88,13 @@ URLが送信されると、BOTがそれを検出し、画像を含むメッセ�
 
 ## 使い方
 
-- DiscordのメッセージURLを送信すると、そのメッセージが引用されます。
+- このBOTが導入済みのサーバーでDiscordのメッセージURLを送信すると、そのメッセージが引用されます。
 
 ## 前提・依存
 
-1. Node.js V18 以降  
-2. Discord ボットトークン  
+1. Discord サーバー
+2. Node.js V18 以降  
+3. Discord ボットトークン  
 トークンは Discord Developer Portal から取得できます。
 
 ## 導入方法
