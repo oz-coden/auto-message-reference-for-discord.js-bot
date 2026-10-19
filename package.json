@@ -1,26 +1,21 @@
 {
-  "name": "nodejs",
+  "name": "auto-message-reference-for-discord",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ."
+    "start": "node main.js",
+    "test": "node --test",
+    "check": "node main.js --check"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "@discordjs/builders": "^1.8.2",
-    "@discordjs/rest": "^2.0.1",
-    "@replit/database": "^2.0.5",
-    "@types/node": "^18.0.6",
-    "discord-api-types": "^0.37.60",
-    "discord.js": "^14.15.3",
-    "express": "^4.19.2",
-    "node-fetch": "^3.2.6"
+    "discord.js": "14.27.0"
   },
-  "devDependencies": {
-    "node": "^16.20.2"
-  },
-  "description": ""
+  "description": "Discord bot that automatically quotes message links.",
+  "private": true,
+  "engines": {
+    "node": ">=24.17.0"
+  }
 }
